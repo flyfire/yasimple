@@ -23,7 +23,7 @@
         <div id="post-nav">
             <div id="toggle-button">宽版</div>
             {% if not default_home_page %}
-            <a href="{{ site.root }}/">Home</a>{%- if page.category %} » <a href="{{ site.root }}/#{{ page.category }}">{{ page.category }}</a>
+            <a href="{{ site.url }}/">Home</a>{%- if page.category %} » <a href="{{ site.url }}/#{{ page.category }}">{{ page.category }}</a>
 {%- endif %} » {{ page.title }}
             {% endif %}
         </div>
